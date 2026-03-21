@@ -463,7 +463,7 @@ document.addEventListener('DOMContentLoaded', function() {
             <div class="modal-content">
                 <div class="modal-header">
                     <i class="nf nf-fa-share_alt" style="color: #667eea; font-size: 48px;"></i>
-                    <h2>📢 spread the word!</h2>
+                    <h2>spread the site!</h2>
                 </div>
                 <div class="modal-body">
                     <p style="font-size: 15px; color: #666; margin-bottom: 15px;">
