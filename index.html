@@ -245,5 +245,12 @@
     <script src="script2.js"></script>
     <script src="icongen.js"></script>
     <script src="script.js"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js');
+        });
+      }
+    </script>
 </body>
 </html>
