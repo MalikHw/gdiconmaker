@@ -169,6 +169,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     
     submitBt.addEventListener('click', async function() {
+        const aprilFoolsDone = this.dataset.aprilFoolsBypassed === 'true';
+        delete this.dataset.aprilFoolsBypassed; // it clear it immediately
         const procsdImgs = getProcsdImgs();
 
         if (procsdImgs.length === 0) {
@@ -190,7 +192,7 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
 
-        if (mnth === 4 && dy === 1) {
+        if (mnth === 4 && dy === 1 && !aprilFoolsDone) {
             showFakePremium();
             return;
         }
@@ -565,6 +567,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 modOvr.classList.remove('active');
                 setTimeout(() => {
                     document.body.removeChild(modOvr);
+                    submitBt.dataset.aprilFoolsBypassed = 'true';
                     submitBt.click();
                 }, 300);
             });
