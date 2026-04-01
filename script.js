@@ -429,7 +429,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         </button>
                     </div>
                     <p style="font-size: 12px; color: #999; margin-top: 15px;">
-                        no pressure! ur download already started 😊
+                        no pressure! ur download already started
                     </p>
                 </div>
             </div>
@@ -483,7 +483,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         </button>
                     </div>
                     <p style="font-size: 12px; color: #999; margin-top: 15px;">
-                        post it anywhere! reddit, discord, twitter, wherever 🙏
+                        post it anywhere! reddit, discord, X, wherever
                     </p>
                 </div>
             </div>
@@ -540,7 +540,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         Only $99.99/month!
                     </p>
                     <button type="button" class="modal-btn donate-btn" id="fakePremiumBtn" style="font-size: 20px; padding: 20px;">
-                        💳 UPGRADE NOW
+                        UPGRADE NOW
                     </button>
                     <p style="font-size: 10px; color: #999; margin-top: 20px;">
                         *auto-renews forever, cant cancel, we keep charging even after u die
@@ -554,7 +554,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         document.getElementById('fakePremiumBtn').addEventListener('click', () => {
             mod.querySelector('.modal-body').innerHTML = `
-                <h2 style="font-size: 48px; margin: 40px 0;">😂</h2>
+                <h2 style="font-size: 48px; margin: 40px 0;">LOL</h2>
                 <h3 style="font-size: 24px;">jk bro</h3>
                 <p style="font-size: 16px; color: #666; margin: 20px 0;">
                     this shits free forever lmao
